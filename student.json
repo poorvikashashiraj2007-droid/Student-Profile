@@ -1,0 +1,44 @@
+{
+    "name": "Poorvika B S",
+    "course": "Bachelor of Engineering - Computer Science",
+    "about": "I am a passionate computer science student interested in web development, programming and technology.",
+
+    "photo": "photo.png",
+
+    "education": [
+        {
+            "degree": "Bachelor of Engineering",
+            "college": "P.E.S college of Engineering , Mandya",
+            "year": "2025- 2029",
+            "percentage": "8.875CGPA"
+        },
+        {
+            "degree": "Pre-University Course",
+            "college": "Mandavya Excellence pu college",
+            "year": "2023 - 2025",
+            "percentage": "95%"
+        },
+        {
+            "degree": "SSLC",
+            "college": "carmel covent High School",
+            "year": "2023",
+            "percentage": "95%"
+        }
+    ],
+
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "C Programming",
+        "Java",
+        "Git"
+    ],
+
+    "contact": {
+        "email": "poorvikashashiraj2007@example.com",
+        "phone": "+91 8431874468",
+        "address": "Mandya, Karnataka, India"
+    }
+}

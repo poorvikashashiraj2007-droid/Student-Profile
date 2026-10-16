@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Student Profile</h2>
+
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+
+        <div class="profile-card">
+
+            <img id="profilePhoto" src="photo.png" alt="Student Photo">
+
+            <div class="profile-info">
+                <h1 id="studentName">Student Name</h1>
+
+                <h3 id="studentCourse">Course</h3>
+
+                <p id="studentAbout">
+                    Student profile information
+                </p>
+
+                <button onclick="showMessage()">
+                    Say Hello 😊
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education">
+
+        <h2 class="section-title">Education</h2>
+
+        <div id="educationContainer" class="education-container">
+            <!-- Education loaded using JavaScript -->
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div id="skillsContainer" class="skills-container">
+            <!-- Skills loaded using JavaScript -->
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact Details</h2>
+
+        <div class="contact-card">
+
+            <p>
+                📧 <strong>Email:</strong>
+                <span id="email"></span>
+            </p>
+
+            <p>
+                📱 <strong>Phone:</strong>
+                <span id="phone"></span>
+            </p>
+
+            <p>
+                📍 <strong>Address:</strong>
+                <span id="address"></span>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Profile Website</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
